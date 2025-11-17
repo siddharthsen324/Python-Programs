@@ -1,0 +1,7 @@
+i, l, c, f = input().split()
+i = int(i)
+l = int(l)
+c = int(c)         
+f = int(f)
+x=(i*l)-(c*f)
+print("Difference =",x)
