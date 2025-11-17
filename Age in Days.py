@@ -1,0 +1,9 @@
+n=input()
+n=int(n)
+ye=n//365
+rem=n%365
+mn=rem//30
+dy=rem%30
+print(ye,"years")
+print(mn,"months")
+print(dy,"days")
